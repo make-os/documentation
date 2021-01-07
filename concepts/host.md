@@ -2,7 +2,7 @@
 id: host
 title: Host (Replication)
 sidebar_label: Host (Replication)
-description: The storage and bandwidth provider of the MakeOS protocol.
+description: The storage and bandwidth provider of the MakeOS network.
 ---
 
 # Host

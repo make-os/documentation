@@ -31,6 +31,7 @@
 * [Latinum](concepts/latinum.md)
 * [Validator](concepts/validator.md)
 * [Host](concepts/host.md)
+* [Remote](concepts/remote.md)
 
 ## JavaScript Console API <a id="console"></a>
 

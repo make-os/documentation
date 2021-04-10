@@ -33,5 +33,5 @@ You will be asked to provide a passphrase that will be used to encrypt the key a
 
 ## Get Test Coins
 
-Copy your new address and go to our Testnet faucet to [request for test coins](https://makeos.org/pages/faucet).
+Copy your new address and go to our Testnet faucet to [request test coins](https://makeos.org/faucet).
 

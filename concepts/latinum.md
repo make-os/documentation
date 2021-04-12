@@ -8,11 +8,11 @@ sidebar_label: Coin
 
 ## Overview
 
-Permission-less Proof of Stake blockchain networks like MakeOS, require a native digital currency primarily for providing network security via staking. 
+Permission-less Proof of Stake blockchain networks like MakeOS requires a native digital currency primarily for providing network security via staking. 
 
 A native currency is also used to incentivize network participants to provide compute resources that help the network perform its core functions consistently.
 
-On Proof-of-work chains, they contribute to the security to the network by incentivizing network participant to compete to create new blocks which raises the mining difficulty and makes it expensive for attacks to occur frequently or be sustained.
+On Proof-of-work chains, they contribute to the security of the network by incentivizing network participant to compete to create new blocks which raises the mining difficulty and makes it expensive for attacks to occur frequently or be sustained.
 
 MakeOS introduces a currency known as _Latinum_. 
 
@@ -24,9 +24,7 @@ Latinum is mined by burning Dilithium. Validators create Latinum when they burn 
 
 ## Supply
 
-_Latinum_ exhibits similar deflationary qualities like Bitcoin. There will only ever be 700 000 000 \(700 Million\) Latinum. 
-
-At launch, there will be an initial supply of not more than 150 000 000 \(150 Million\) units. Most of the initial supply will be allocated to users who mine Dilithium on the [MakeOS cloud mine](https://mine.makeos.org) application.
+_Latinum_ is a deflationary behaviour like Bitcoin. There will only ever be 700,000,000 \(Seven Hundred Million\) Latinums. At launch, there will be an initial supply of not more than 150,000,000 \(One Fifty Million\) allocated to the early team, investors and the community. 
 
 ## Use Case
 
@@ -39,9 +37,10 @@ At launch, there will be an initial supply of not more than 150 000 000 \(150 Mi
 ## Distribution
 
 * 15% - Founders
-* 10% - Network Launcher \(the entity that launches a MakeOS mainnet\).
+* 10% - Core Contributors and Non-founding team.
+* 20% - Strategic Partners.
 * 15% - Ecosystem.
-* 10% - Pre-launch backers.
-* 50% - Public Distribution \(via Cloud Miner\).
+* 38.7% - Public Distribution.
+* 1.3% - Ellcrys Contributors.
   * Note: Since MakeOS is the successor of the defunct Ellcrys project, 19,000,000 ELL distributed to Ellcrys investors & bounties participants will be reallocated proportionally to the initial supply of the MakeOS platform. Given that MakeOS initial supply is 90% less than the Ellcrys supply, a total of 1,900,000 Latinum will be allocated to Ellcrys investors, bounty and airdrop participants. 
 

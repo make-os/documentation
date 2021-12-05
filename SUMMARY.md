@@ -26,7 +26,7 @@
 * [Transactions](concepts/transactions/README.md)
   * [Register a Repository](concepts/transactions/register-repo.md)
   * [Send Coins](concepts/transactions/send-fund.md)
-* [Latinum](concepts/latinum.md)
+* [$MAKE](concepts/latinum.md)
 * [Validator](concepts/validator.md)
 * [Host](concepts/host.md)
 * [Remote](concepts/remote.md)

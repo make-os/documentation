@@ -11,7 +11,6 @@
 * [Track a Repository](intro/track-repo.md)
 * [What is MakeOS](intro/what-is-makeos.md)
 * [How it Works](intro/how-it-works.md)
-* [Claim Your Username](intro/claim-your-username.md)
 
 ## Concepts
 

@@ -2,7 +2,7 @@
 
 * [Welcome to MakeOS](README.md)
 
-## Introduction <a id="intro"></a>
+## Introduction <a href="#intro" id="intro"></a>
 
 * [Install](intro/install-kit.md)
 * [Quick Start](intro/quickstart.md)
@@ -27,13 +27,12 @@
 * [Transactions](concepts/transactions/README.md)
   * [Register a Repository](concepts/transactions/register-repo.md)
   * [Send Coins](concepts/transactions/send-fund.md)
-* [Dilithium](concepts/dilithium.md)
 * [Latinum](concepts/latinum.md)
 * [Validator](concepts/validator.md)
 * [Host](concepts/host.md)
 * [Remote](concepts/remote.md)
 
-## JavaScript Console API <a id="console"></a>
+## JavaScript Console API <a href="#console" id="console"></a>
 
 * [repo](console/repo.md)
 * [pushkey](console/pushkey.md)
@@ -43,7 +42,7 @@
 * [transaction](console/transaction.md)
 * [ticket](console/ticket.md)
 
-## KIT CLI Reference <a id="cli"></a>
+## KIT CLI Reference <a href="#cli" id="cli"></a>
 
 * [Overview](cli/overview.md)
 * [init](cli/init.md)
@@ -91,4 +90,3 @@
   * [read](cli/mr/read.md)
   * [reopen](cli/mr/reopen.md)
   * [status](cli/mr/status.md)
-

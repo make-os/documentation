@@ -20,7 +20,7 @@ On this page, you will learn how to register and initialize a new repository usi
 ## Create a key
 
 {% hint style="info" %}
-Feel free to skip this section if you already have a key. If not see [Key](../keys.md) page to learn more. 
+Feel free to skip this section if you already have a key. If not see [Key](../keys.md) page to learn more.&#x20;
 {% endhint %}
 
 Registering a new repository requires an identity. On MakeOS, keys offer a way for users to create an identity, authorize transactions, receive/send value and pay for services. You can create a key using the command below:
@@ -42,7 +42,7 @@ Repeat Passphrase> ***
 {% endtab %}
 {% endtabs %}
 
-You will be asked to provide a passphrase that will be used to encrypt the key in the keystore. 
+You will be asked to provide a passphrase that will be used to encrypt the key in the keystore.&#x20;
 
 ## Get Test Coins
 
@@ -58,7 +58,7 @@ Like most blockchains, MakeOS require users to pay a small fee to have transacti
 We are using **`express`** as the name of our test repository. If you are connected to the test network, you may need to use a different name since the name may no longer be available.
 {% endhint %}
 
-It is time to create your repository. The example below will register a new repository named `express` on the MakeOS network. 
+It is time to create your repository. The example below will register a new repository named `express` on the MakeOS network.&#x20;
 
 It will also initialize the repository in the current directory and configure it to make it easy for you to run git sign, fetch and pushing operations.
 
@@ -90,33 +90,33 @@ The `-u` flag specifies the address of your new key; This key is known as the _s
 You can provide the keystore index of your signing key to `-u` instead of a full address.
 {% endhint %}
 
-By default, the signing key will be added as the first contributor \(or Push Key\) to the repository. It will also be used to sign future push requests.
+By default, the signing key will be added as the first contributor (or Push Key) to the repository. It will also be used to sign future push requests.
 
-The `-f` flag specifies the amount of fee you are willing to pay from your signing key to the network in other to create the repository. This fee will also be used as the transaction fee for future push requests. 
+The `-f` flag specifies the amount of fee you are willing to pay from your signing key to the network in other to create the repository. This fee will also be used as the transaction fee for future push requests.&#x20;
 
 You can change the fee by setting `user.fee` in git config, by running:
 
-* `kit repo config -f=<your fee>` or 
+* `kit repo config -f=<your fee>` or&#x20;
 * `git config user.fee <your fee>`.
 
-See the [init command](concepts/repository/commands/repo/init.md) documentation for more options.
+See the [init command](https://app.gitbook.com/s/-MMaaTKhGv9TFS4221Rr/concepts/repository/concepts/repository/commands/repo/init.md) documentation for more options.
 
 ## Start Pushing
 
-By default, the `init` command will set `origin` remote to `127.0.0.1:9002` where it expects a Kit node to be running. At this point, we are assuming that you already have a running local node. 
+By default, the `init` command will set `origin` remote to `127.0.0.1:9002` where it expects a Kit node to be running. At this point, we are assuming that you already have a running local node.&#x20;
 
 Every time you add a commit, Git will fire the  `post-commit` hook which will cause Kit to sign your new commit and create a fresh push token that will be used to authenticate your push request.
 
-Go ahead and create a commit and then push it. 
+Go ahead and create a commit and then push it.&#x20;
 
 ```bash
 git push origin <branch>  # Change <branch> to your own branch name 
 ```
 
 {% hint style="info" %}
-You can change the remote URL it at any time by going to `.git/config` to edit remote's URL or using `git remote set-url <remote> <url>` command.  
+You can change the remote URL it at any time by going to `.git/config` to edit remote's URL or using `git remote set-url <remote> <url>` command. &#x20;
 
-See the [Quick Start Guide](intro/quickstart.md) to learn how to start up a local node.
+See the [Quick Start Guide](https://app.gitbook.com/s/-MMaaTKhGv9TFS4221Rr/concepts/repository/intro/quickstart.md) to learn how to start up a local node.
 {% endhint %}
 
 ## Seed Remote Nodes
@@ -141,4 +141,3 @@ git remote add seed "http://s1.seeders.live:9002/r/<your-repo>"
 ```
 
 Replace `<your-repo>` with the name of your own repository.
-

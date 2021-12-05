@@ -6,6 +6,10 @@ sidebar_label: Coin
 
 # $MAKE
 
+{% hint style="info" %}
+Latinum has now been renamed to **MAKE**.&#x20;
+{% endhint %}
+
 ## Overview
 
 Permission-less Proof of Stake blockchain networks like MakeOS requires a native digital currency primarily for providing network security via staking.&#x20;
@@ -27,12 +31,12 @@ MAKE is a deflationary behaviour like Bitcoin. There will only ever be 800,000,0
 * For incentivizing network participants.
 * For network and repository governance.
 
-## Distribution
+## Allocation
 
-* 15% - Founders
-* 10% - Core Contributors and Non-founding team.
-* 20% - Strategic Partners.
-* 15% - Ecosystem.
-* 38.7% - Public Distribution.
-* 1.3% - Ellcrys Contributors.
-  * Note: Since MakeOS is the successor of the defunct Ellcrys project, 19,000,000 ELL distributed to Ellcrys investors & bounties participants will be reallocated proportionally to the initial supply of the MakeOS platform. Given that MakeOS initial supply is 90% less than the Ellcrys supply, a total of 1,900,000 MAKE will be allocated to Ellcrys investors, bounty and airdrop participants.&#x20;
+* 16% - Founders
+* 10% - Team (Company)
+* 24% - Strategic Partners/Investors&#x20;
+* 18% - Ecosystem.
+* 30% - Public Distribution.
+* 2% - Ellcrys Contributors.
+  * Note: Since MakeOS is the successor of the defunct Ellcrys project, 19,000,000 ELL distributed to Ellcrys investors & bounties participants will be reallocated proportionally to the initial supply of the MakeOS platform. Given that MakeOS initial supply is 90% less than the Ellcrys supply, a total of 8,000,000 MAKE will be allocated to Ellcrys investors, bounty and airdrop participants.&#x20;

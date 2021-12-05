@@ -12,6 +12,7 @@
 * [What is MakeOS](intro/what-is-makeos.md)
 * [How it Works](intro/how-it-works.md)
 * [Roadmap](intro/roadmap.md)
+* [Team](intro/team.md)
 
 ## Concepts
 

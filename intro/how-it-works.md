@@ -65,7 +65,7 @@ A remote provider is incentivized via transaction fees and block inflation. A re
 
 Hosts are keepers of Git objects. They are tasked with persisting the state of all repositories and must make repository objects available to everyone. Hosts are connected to each other through a distributed hash table network where they announce themselves as providers of Git objects and fetch objects from other hosts.
 
-They are also endorsers of push requests — They receive push request notifications from remote providers, validate and authenticate the requests, download git objects, dry-run git updates and send out endorsements if they are satisfied. A push request notification cannot be used to create a push transaction if a pre-determined number of endorsements have not been received. When a node on the network receives both the push request notification and the required number of endorsements, they can add a push transaction to the mempool.
+They are also endorsers of push requests — They receive push request notifications from remote providers, validate and authenticate the requests, download git objects, dry-run git updates and send out endorsements if they are satisfied. A push request notification cannot be used to create a push transaction if a pre-determined number of endorsements have not been received. When a node on the network receives both the push request notification and the required number of endorsements, it can add a push transaction to the mempool.
 
 The host role is network incentivized; It is subsidized by the network via block inflation reward. To become a host, one must deposit a minimum amount of the native coin as a security deposit that may be slashed when bad behaviour is detected. The number of hosts in the network is limited.
 
@@ -109,10 +109,10 @@ These are the protocols a pusher must follow to create a valid push request targ
 
         (a Bech32 address with HRP=push).&#x20;
 3. The Pusher may create a repository using `TxRepoCreate` transaction if they do not already have one.
-4.  Pusher must add push key as a contributor to the repository at `#3` via a `TxRepoProposalRegisterPushKey` transaction.&#x20;
+4.  A Pusher must add a _push key_ as a contributor to the repository at `#3` via a `TxRepoProposalRegisterPushKey` transaction.&#x20;
 
     This step can be skipped if the repository is configured to consider the creator as the first contributor. &#x20;
-5.  Pusher must create and sign a token called a _Push Token_. It is used by the remote and other nodes to perform&#x20;
+5.  A Pusher must create and sign a token called a _Push Token_. It is used by the remote and other nodes to perform&#x20;
 
     authentication, authorization and push integrity checks.
 6. Pusher must sign commit with the registered push key.
@@ -143,7 +143,7 @@ These are protocols a remote must follow to successfully handle a push request f
 
 ## Host
 
-Hosts are responsible for endorsing push notification, archiving and providing git objects while being incentivized by the network. They follow the following protocol:
+Hosts are responsible for endorsing push notifications, archiving and providing git objects while being incentivized by the network. They follow the following protocol:
 
 #### **On PushNote Received:**&#x20;
 
@@ -172,7 +172,7 @@ In the push request handling cycle, validators are responsible for executing pus
 1. &#x20;The Validator must check the push transaction.&#x20;
    1. Must ensure the push note is valid.&#x20;
    2. Must ensure push endorsements are present and valid.&#x20;
-2. The Validator must add or updates reference state and nonce on the target repository.&#x20;
+2. The Validator must add or update the reference state and nonce on the target repository.&#x20;
 3. The Validator must deduct fees.
 
 ## Basic Protocol Economics
@@ -181,7 +181,7 @@ This section briefly describes the economic concept of the MakeOS network
 
 ### Native Currency
 
-MakeOS has a native currency known as _Latinum_. It exists to serve as the base currency for paying fees, staking in various governance processes. It provides a means for the protocol and users to price and pay for network services and ultimately provide security to the network via validator and host staking. There will be a total initial supply of 150,000,000 (150 Million) coins at launch and a 3.5% yearly inflation until the supply reaches 700,000,000 (700 Million).
+MakeOS has a native currency known as MAKE. It exists to serve as the base currency for paying fees, staking in various governance processes. It provides a means for the protocol and users to price and pay for network services and ultimately provide security to the network via validator and host staking. There will be a total initial supply of 400,000,000 coins at launch and a 7% yearly inflation until the supply reaches 800,000,000 (800 Million).
 
 #### Use case:
 
@@ -198,7 +198,7 @@ A Repository Coin (or RepoCoin) is a native coin for a repository. It is issued 
 
 They have similar properties to Ethereum’s ERC-20. They are fungible and can be transferred from one account to another.&#x20;
 
-Like Latinum, Repository Coins can be stored in a Balance Account or transferred between accounts.
+Like MAKE, Repository Coins can be stored in a Balance Account or transferred between accounts.
 
 ### Consensus Mechanism
 
@@ -206,4 +206,4 @@ MakeOS is built on [Tendermint Core](https://tendermint.com). Tendermint is a fa
 
 On MakeOS, fast finality is important because it guarantees that when a push request is made, it will not be reversed. Developers do not have to wait beyond the first block to be certain that their push operation was successful. On a proof-of-work chain, the possibility of a block re-organization means that a push operation may be reversed, requiring developers to re-push.
 
-MakeOS leverages on proof-of-stake to provide Sybil protection. It requires all nodes participating in block creation to lock funds that may be slashed when bad behaviour is detected.
+MakeOS leverages proof-of-stake to provide Sybil protection. It requires all nodes participating in block creation to lock funds that may be slashed when bad behaviour is detected.

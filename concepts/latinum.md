@@ -12,15 +12,9 @@ Permission-less Proof of Stake blockchain networks like MakeOS requires a native
 
 A native currency is also used to incentivize network participants to provide compute resources that help the network perform its core functions consistently.
 
-On Proof-of-work chains, they contribute to the security of the network by incentivizing network participant to compete to create new blocks which raises the mining difficulty and makes it expensive for attacks to occur frequently or be sustained.
+On Proof-of-work chains, they contribute to the security of the network by incentivizing network participants to compete to create new blocks which raises the mining difficulty and makes it expensive for attacks to occur frequently or be sustained.
 
 MakeOS introduces a currency known as _Latinum_.&#x20;
-
-Latinum is one of two currencies on MakeOS. The other currency is [_Dilithium_](broken-reference) _-_ The gas currency for paying protocol taxes and transaction fees.
-
-## Generation
-
-Latinum is mined by burning Dilithium. Validators create Latinum when they burn Dilithium during block transaction processing. The amount of Latinum created by block is proportional to how much Dilithium was burned.&#x20;
 
 ## Supply
 
@@ -32,7 +26,6 @@ _Latinum_ is a deflationary behaviour like Bitcoin. There will only ever be 700,
 * For providing network security via staking and delegating.
 * For incentivizing network participants.
 * For network and repository governance.
-* For stopping Dilithium decay via staking.&#x20;
 
 ## Distribution
 

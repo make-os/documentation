@@ -11,6 +11,7 @@
 * [Track a Repository](intro/track-repo.md)
 * [What is MakeOS](intro/what-is-makeos.md)
 * [How it Works](intro/how-it-works.md)
+* [Roadmap](intro/roadmap.md)
 
 ## Concepts
 

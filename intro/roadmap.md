@@ -6,11 +6,11 @@ This is the genesis phase of the MakeOS blockchain. In this phase, the goal is t
 
 ### Deliverables
 
-* DevNet 1 Launch.
+* DevNet 1 Launch (<mark style="color:green;">released v1-alpha</mark>).
+* Code Sharing and Hosting Protocol (<mark style="color:green;">released v0.0.32-alpha</mark>).&#x20;
+* Code Collaboration Hub (embedded in client) (<mark style="color:green;">released v1-alpha</mark>).
 * Initial DEX Offering.
 * Uniswap Launch.&#x20;
-* Code Sharing and Hosting Protocol.&#x20;
-* Code Collaboration Hub (embedded in client).
 * GitSpace (GitHub alternative).
 * Block Explorer.
 * Wallet (Desktop).

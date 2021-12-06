@@ -33,10 +33,10 @@ MAKE is a deflationary behaviour like Bitcoin. There will only ever be 800,000,0
 
 ## Allocation
 
+* 42% - Ecosystem.
+* 20% - Team (Company)
 * 16% - Founders
-* 10% - Team (Company)
-* 24% - Strategic Partners/Investors&#x20;
-* 18% - Ecosystem.
-* 30% - Public Distribution.
+* 15% - Strategic Partners/Investors&#x20;
+* 5% - Public Distribution.
 * 2% - Ellcrys Contributors.
-  * Note: Since MakeOS is the successor of the defunct Ellcrys project, 19,000,000 ELL distributed to Ellcrys investors & bounties participants will be reallocated proportionally to the initial supply of the MakeOS platform. Given that MakeOS initial supply is 90% less than the Ellcrys supply, a total of 8,000,000 MAKE will be allocated to Ellcrys investors, bounty and airdrop participants.&#x20;
+  * Note: Since MakeOS is the successor of the defunct Ellcrys project, ELL tokens distributed to Ellcrys investors & bounties participants will be reallocated proportionally to the initial supply of the MakeOS platform. Given that MakeOS initial supply is 73.3% less than the Ellcrys supply, a total of 8,000,000 MAKE will be allocated to Ellcrys investors, bounty and airdrop participants.&#x20;

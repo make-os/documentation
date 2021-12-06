@@ -7,7 +7,7 @@ sidebar_label: Coin
 # $MAKE
 
 {% hint style="info" %}
-Latinum has now been renamed to **MAKE**.&#x20;
+Latinum was renamed to **MAKE**.&#x20;
 {% endhint %}
 
 ## Overview
@@ -24,7 +24,7 @@ MakeOS introduces a currency known as MAKE.&#x20;
 
 MAKE is a deflationary behaviour like Bitcoin. There will only ever be 800,000,000 MAKE. At launch, there will be an initial supply of not more than 400,000,000  allocated to the early team, investors, ecosystem and the community.&#x20;
 
-## Use Case
+## Use Cases
 
 * For paying network fees.
 * For providing network security via staking and delegating.

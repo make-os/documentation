@@ -26,7 +26,7 @@ MAKE is a deflationary behaviour like Bitcoin. There will only ever be 800,000,0
 
 ## Use Cases
 
-* For paying network fees.
+* For paying transaction fees (e.g git operations, repo management, contract calls and more).
 * For providing network security via staking and delegating.
 * For incentivizing network participants.
 * For network and repository governance.

@@ -7,3 +7,6 @@
 ![Odion Olumhense (Product Design) - LinkedIn - Twitter](../.gitbook/assets/marvin.jpg)
 
 ![Emmanuel Ogbonna (Community Manager) - LinkedIn - Twitter](../.gitbook/assets/emmanuel.jpg)
+
+![Samuel Bolu (Marketing & Community Manager) - LinkedIn - Twitter](<../.gitbook/assets/PHOTO-2021-12-06-10-58-49 copy.jpg>)
+

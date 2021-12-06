@@ -11,7 +11,7 @@
 * [Track a Repository](intro/track-repo.md)
 * [What is MakeOS](intro/what-is-makeos.md)
 * [How it Works](intro/how-it-works.md)
-* [$MAKE](intro/latinum.md)
+* [Tokenomics ($MAKE)](intro/tokenomics.md)
 * [Dilithium (Deprecated)](intro/dilithium-deprecated.md)
 * [Roadmap](intro/roadmap.md)
 * [Team](intro/team.md)

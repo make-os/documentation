@@ -4,7 +4,7 @@ title: Coin
 sidebar_label: Coin
 ---
 
-# $MAKE
+# Tokenomics ($MAKE)
 
 {% hint style="info" %}
 Latinum was renamed to **MAKE**.&#x20;
@@ -33,10 +33,23 @@ MAKE is a deflationary behaviour like Bitcoin. There will only ever be 800,000,0
 
 ## Allocation
 
-* 42% - Ecosystem.
+* 30% - Growth Fund.
 * 20% - Team (Company)
 * 16% - Founders
 * 15% - Strategic Partners/Investors&#x20;
+* 12% - Foundation Reserve.
 * 5% - Public Distribution.
 * 2% - Ellcrys Contributors.
   * Note: Since MakeOS is the successor of the defunct Ellcrys project, ELL tokens distributed to Ellcrys investors & bounties participants will be reallocated proportionally to the initial supply of the MakeOS platform. Given that MakeOS initial supply is 73.3% less than the Ellcrys supply, a total of 8,000,000 MAKE will be allocated to Ellcrys investors, bounty and airdrop participants.&#x20;
+
+## Vesting Schedule
+
+| Category                      | Allocation | Vesting Schedule                                                                |
+| ----------------------------- | ---------- | ------------------------------------------------------------------------------- |
+| Growth Fund                   | 30%        | Vesting: 4 years. 10% at TGE and then monthly in equal amounts.                 |
+| Team                          | 20%        | Vesting: 4 years from TGE with 1 year cliff and then monthly in equal amounts.  |
+| Founders                      | 16%        | Vesting: 4 years from TGE with 1 year cliff and then monthly in equal amounts.  |
+| Strategic Partners/Investors  | 15%        | 10% at TGE, 7.5% monthly.                                                       |
+| Foundation Reserve            | 12%        | Vesting: 4 years from TGE with 1 year cliff and then monthly in equal amounts.  |
+| Public Distribution           | 5%         | 10% at TGE, 7.5% monthly.                                                       |
+| Ellcrys Contributors          | 2%         | 10% at TGE, 7.5% monthly.                                                       |

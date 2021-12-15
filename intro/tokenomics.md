@@ -47,9 +47,9 @@ MAKE is a deflationary behaviour like Bitcoin. There will only ever be 800,000,0
 | Category                      | Allocation | Vesting Schedule                                                                |
 | ----------------------------- | ---------- | ------------------------------------------------------------------------------- |
 | Growth Fund                   | 30%        | Vesting: 2 years from TGE with 1 year cliff and then monthly in equal amounts.  |
-| Foundation Reserve            | 12%        | Vesting: 2 years from TGE with 1 year cliff and then monthly in equal amounts.  |
-| Team                          | 20%        | Vesting: 2 years from TGE with 1 year cliff and then monthly in equal amounts.  |
-| Founders                      | 16%        | Vesting: 2 years from TGE with 1 year cliff and then monthly in equal amounts.  |
+| Foundation Reserve            | 12%        | Vesting: 4 years from TGE with 1 year cliff and then monthly in equal amounts.  |
+| Team                          | 20%        | Vesting: 4 years from TGE with 1 year cliff and then monthly in equal amounts.  |
+| Founders                      | 16%        | Vesting: 4 years from TGE with 1 year cliff and then monthly in equal amounts.  |
 | Strategic Partners/Investors  | 15%        | 10% at TGE, 7.5% monthly.                                                       |
 | Public Distribution           | 5%         | 10% at TGE, 7.5% monthly.                                                       |
 | Ellcrys Contributors          | 2%         | 10% at TGE, 7.5% monthly.                                                       |
